@@ -1,0 +1,104 @@
+html {
+  color: white;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 100%;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  background-image: url('/image/sexy-jake.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  margin: 0 5%;
+  position: relative;
+  width: 90%;
+}
+
+.wrapper {
+  bottom: 5px;
+  margin: 0 0 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0;
+  text-shadow: 1px 1px 10px #888;
+}
+
+ul {
+  font-size: 4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: #e1e6fa;
+  text-shadow: 1px 1px 10px #888;
+}
+
+a .title {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+
+  .title {
+    font-size: 4em;
+  }
+
+  ul {
+    font-size: 5em;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .title,
+  ul {
+    font-size: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .title,
+  ul {
+    font-size: 8em;
+  }
+
+}
